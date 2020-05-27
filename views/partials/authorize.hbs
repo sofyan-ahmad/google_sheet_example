@@ -1,0 +1,17 @@
+<h2>You need to authorize this app</h2>
+<br />
+
+<div>
+    <div>
+        <a href="{{link}}" target="_blank">1. Click this link</a>
+        <p>2. Input Google auth code into following input field</p>
+        <p>3. Click Save button</p>
+        <br />
+
+    </div>
+
+    <form action="authorize" method="POST">
+        <input placeholder="Google auth code" name="code" />
+        <button type="submit">Save</button>
+    </form>
+</div>
